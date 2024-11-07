@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Calculator</title>
+    <link rel="stylesheet" href="/styles/style.css">
+    
+</head>
+<body>
+    <h1>Project: Calculator</h1>
+    <div class="calculator">
+        <div class="trademark">
+            <p>Odin Calculator</p>
+            <img src="/img/top.png" alt="The Odin Proyect Logo" width="100">            
+        </div>
+        <div class="screen-container">
+            <input class="screen" type="text" placeholder="0" value="" onkeypress="return valideKey(event);" >
+        </div>
+        <div class="keyboard">
+            <button class="btn" id="delete">C</button>
+            <button class="btn operator" id="percent">%</button>
+            <button class="btn operator" id="backspace">←</button>
+            <button class="btn operator sign">/</button>
+            <button class="btn number">7</button>
+            <button class="btn number">8</button>
+            <button class="btn number">9</button>
+            <button class="btn operator sign">*</button>
+            <button class="btn number">4</button>
+            <button class="btn number">5</button>
+            <button class="btn number">6</button>
+            <button class="btn operator sign">-</button>
+            <button class="btn number">1</button>
+            <button class="btn number">2</button>
+            <button class="btn number">3</button>
+            <button class="btn operator sign">+</button>
+            <button class="btn" id="plus-or-minus">±</button>
+            <button class="btn number">0</button>
+            <button class="btn" id="dot">.</button>
+            <button class="btn" id="equal">=</button>
+        </div>
+        
+    </div>
+    
+</body>
+</html>
